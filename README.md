@@ -61,6 +61,17 @@ alias mgt='bundle exec rails db:migrate RAILS_ENV=test'
 alias rubodiff='gd --name-only --relative $1 | xargs rubocop'
 ```
 
+# Useful Scripts
+See [scripts](./scripts).
+
+I recommend copying these scripts to your `/usr/local/bin` directory. Here is a brief description of each script:
+
+| Name        | Author       | Description                                                                                        |
+|-------------|--------------|----------------------------------------------------------------------------------------------------|
+| smartfix    | mluders      | Find the most recent commit for each unstaged file (the red files), and automatically fix them up. |
+
+
+
 # Useful programs
 | Name        | Description                              | URL                                                                    |
 |-------------|------------------------------------------|------------------------------------------------------------------------|
