@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+base=${1:-master}
+git diff "$(git merge-base HEAD $base)" --relative --name-only --diff-filter=d -- '*.rb' | xargs rubocop

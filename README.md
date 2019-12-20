@@ -53,14 +53,6 @@ alias mg='bundle exec rails db:migrate'
 alias mgt='bundle exec rails db:migrate RAILS_ENV=test'
 ```
 
-### Rubocop
-```bash
-# ~/.bash_profile
-
-# Rubocop all changed files, starting at a given SHA
-alias rubodiff='gd --name-only --relative $1 | xargs rubocop'
-```
-
 # Useful Scripts
 See [scripts](./scripts).
 
@@ -69,6 +61,7 @@ I recommend copying these scripts to your `/usr/local/bin` directory. Here is a 
 | Name        | Author       | Description                                                                                        |
 |-------------|--------------|----------------------------------------------------------------------------------------------------|
 | smartfix    | mluders      | Find the most recent commit for each unstaged file (the red files), and automatically fix them up. |
+| rubodiff    | mluders      | Rubocop all ruby files, starting at a given SHA. Deleted files are ignored.                        |
 
 
 
