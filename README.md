@@ -58,10 +58,11 @@ See [scripts](./scripts).
 
 I recommend copying these scripts to your `/usr/local/bin` directory. Here is a brief description of each script:
 
-| Name        | Author       | Description                                                                                        |
-|-------------|--------------|----------------------------------------------------------------------------------------------------|
-| smartfix    | mluders      | Find the most recent commit for each unstaged file (the red files), and automatically fix them up. |
-| rubodiff    | mluders      | Rubocop all ruby files, starting at a given SHA. Deleted files are ignored.                        |
+| Name        | Author         | Description                                                                                        |
+|-------------|----------------|----------------------------------------------------------------------------------------------------|
+| rubodiff    | @mluders       | Rubocop all ruby files, starting at a given SHA. Deleted files are ignored.                        |
+| smartfix    | @mluders       | Find the most recent commit for each unstaged file (the red files), and automatically fix them up. |
+| sortcommits | @starburstdata | Change the dates of each commit, starting from master, so they sort properly on GitHub.            |
 
 
 

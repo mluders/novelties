@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+base=${1:-master}
+git rebase "$(git merge-base HEAD $base)" -x 'git commit --amend -C HEAD --date="$(date -R)" && sleep 1.05'
