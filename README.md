@@ -14,6 +14,8 @@ bind '"\e[B": history-search-forward'
 
 # Shortcuts
 
+I'm not a fan of using git aliases, because you still have to type `git {space} alias`. I prefer adding custom aliases to my bash profile, which results in shorter aliases - no spaces required.
+
 ### Git
 ```bash
 # ~/.bash_profile
